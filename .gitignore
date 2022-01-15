@@ -1,0 +1,39 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+export/
+#*.properties
+/logs/archived/
+/videocall-service/src/main/resources/application.yml
+/managementfile/
+/notify-service/src/main/resources/application (3).yml
+/leads-service/src/main/resources/application.yml
+/auth-service/src/main/resources/application.yml

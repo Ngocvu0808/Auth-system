@@ -1,0 +1,56 @@
+[
+  {
+    "index": 1,
+    "key": "id",
+    "typeValue": "number",
+    "name": "Request id"
+  },
+  {
+    "index": 2,
+    "key": "token",
+    "typeValue": "string",
+    "name": "Access token"
+  },
+  {
+    "index": 3,
+    "key": "apiUrl",
+    "typeValue": "string",
+    "name": "Api"
+  },
+  {
+    "index": 4,
+    "key": "method",
+    "typeValue": "string",
+    "name": "Method"
+  },
+  {
+    "index": 5,
+    "key": "nameUser",
+    "typeValue": "string",
+    "name": "Người dùng"
+  },
+  {
+    "index": 6,
+    "key": "ip",
+    "typeValue": "string",
+    "name": "ip"
+  },
+  {
+    "index": 7,
+    "key": "createdTime",
+    "typeValue": "date",
+    "name": "Thời gian request"
+  },
+  {
+    "index": 8,
+    "key": "resTime",
+    "typeValue": "date",
+    "name": "Thời gian response"
+  },
+  {
+    "index": 9,
+    "key": "status",
+    "typeValue": "string",
+    "name": "Trạng thái"
+  }
+]
