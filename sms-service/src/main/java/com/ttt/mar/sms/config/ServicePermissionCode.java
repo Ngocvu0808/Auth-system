@@ -1,0 +1,29 @@
+package com.ttt.mar.sms.config;
+
+/**
+ * @author sinhhv
+ * @created_date 16/08/2020
+ */
+
+public interface ServicePermissionCode {
+
+  String SMS_CONFIG_ADD = "SMS_CONFIG_ADD";
+
+  String SMS_CONFIG_EDIT = "SMS_CONFIG_EDIT";
+
+  String SMS_CONFIG_DELETE = "SMS_CONFIG_DELETE";
+
+  String SMS_CONFIG_GETS = "SMS_CONFIG_GETS";
+
+  String SMS_CONFIG_GET_BY_ID = "SMS_CONFIG_GET_BY_ID";
+
+  String SMS_PUBLISHER_ADD = "SMS_PUBLISHER_ADD";
+
+  String SMS_PUBLISHER_EDIT = "SMS_PUBLISHER_EDIT";
+
+  String SMS_PUBLISHER_DELETE = "SMS_PUBLISHER_DELETE";
+
+  String SMS_PUBLISHER_GETS = "SMS_PUBLISHER_GETS";
+
+  String SMS_RECEIVE_SMS_FROM_NOTIFY_SERVICE = "SMS_RECEIVE_SMS_FROM_NOTIFY_SERVICE";
+}
