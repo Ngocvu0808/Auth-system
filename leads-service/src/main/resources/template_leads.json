@@ -1,0 +1,74 @@
+[
+  {
+    "index": 0,
+    "key": "_id",
+    "typeValue": "string",
+    "name": "Lead ID"
+  },
+  {
+    "index": 1,
+    "key": "fullName",
+    "typeValue": "string",
+    "name": "Họ và tên"
+  },
+  {
+    "index": 2,
+    "key": "phone",
+    "typeValue": "string",
+    "name": "Số điện thoại"
+  },
+  {
+    "index": 3,
+    "key": "projectCode",
+    "typeValue": "string",
+    "name": "Mã dự án"
+  },
+  {
+    "index": 4,
+    "key": "campaign_code",
+    "typeValue": "string",
+    "name": "Mã chiến dịch"
+  },
+  {
+    "index": 5,
+    "key": "source",
+    "typeValue": "string",
+    "name": "Nguồn cấp lead"
+  },
+  {
+    "index": 6,
+    "key": "created_time",
+    "typeValue": "date",
+    "name": "Ngày tạo"
+  },
+  {
+    "index": 7,
+    "key": "status",
+    "typeValue": "string",
+    "name": "Trạng thái"
+  },
+  {
+    "index": 8,
+    "key": "CustomerName",
+    "typeValue": "string",
+    "name": "Họ và tên"
+  },
+  {
+    "index": 9,
+    "key": "PhoneNumber1",
+    "typeValue": "string",
+    "name": "Số điện thoại"
+  },
+  {
+    "index": 10,
+    "key": "CampaignCode",
+    "typeValue": "string",
+    "name": "Mã chiến dịch"
+  },
+  {
+    "index": 11,
+    "key": "SourceId",
+    "typeValue": "string",
+    "name": "Nguồn cấp lead"
+  }
+]
