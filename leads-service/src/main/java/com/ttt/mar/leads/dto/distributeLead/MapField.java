@@ -1,9 +1,5 @@
 package com.ttt.mar.leads.dto.distributeLead;
 
-/**
- * @author nguyen
- * @create_date 13/10/2021
- */
 public class MapField<K, V> {
 
   private K source;

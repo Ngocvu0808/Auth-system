@@ -2,10 +2,6 @@ package com.ttt.mar.leads.dto;
 
 import com.ttt.mar.leads.entities.LeadSourceStatus;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class ProjectSourceResponse {
 
   private Integer id;

@@ -5,10 +5,6 @@ import com.ttt.mar.leads.entities.ScheduleStatus;
 import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author Chien Chill
- * @create_date 07/09/2021
- */
 public class ScheduleUpdateStatusDto {
 
   @JsonIgnore

@@ -6,10 +6,6 @@ import com.ttt.mar.leads.entities.LeadSourceStatus;
 import java.util.Date;
 import java.util.List;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class DistributeApiDetailResponse {
 
   private Integer id;

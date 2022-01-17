@@ -17,11 +17,6 @@ import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-/**
- * @author bontk
- * @created_date 17/07/2020
- */
-
 @Data
 @Entity
 @Table(name = "mail_server_config")

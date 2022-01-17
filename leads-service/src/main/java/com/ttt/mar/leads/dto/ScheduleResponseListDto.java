@@ -3,10 +3,6 @@ package com.ttt.mar.leads.dto;
 import com.ttt.mar.leads.entities.ScheduleStatus;
 import java.util.Date;
 
-/**
- * @author nguyen
- * @create_date 06/09/2021
- */
 public class ScheduleResponseListDto {
 
   private int id;

@@ -16,10 +16,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author kietdt
- * @created_date 09/06/2021
- */
 @Entity
 @Table(name = "lead_campaign_source")
 public class CampaignSource implements Serializable {

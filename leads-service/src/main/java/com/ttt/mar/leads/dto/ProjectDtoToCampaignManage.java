@@ -1,9 +1,5 @@
 package com.ttt.mar.leads.dto;
 
-/**
- * @author NamBN
- * @created_date 08/06/2021
- */
 public class ProjectDtoToCampaignManage {
 
   private Integer id;

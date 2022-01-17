@@ -6,10 +6,6 @@ import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
-/**
- * @author bontk
- * @created_date 03/08/2020
- */
 public interface ClientServiceRepository extends JpaRepository<ClientService, Integer> {
 
   Optional<ClientService> findByClientIdAndServiceIdAndIsDeletedFalse(Integer clientId,

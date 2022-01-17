@@ -6,10 +6,6 @@ import java.util.Date;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * @author NamBN
- * @created_date 08/06/2021
- */
 public class CampaignResponseDto {
 
   private Integer id;

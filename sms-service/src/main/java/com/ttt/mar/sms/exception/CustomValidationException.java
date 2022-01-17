@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-/**
- * @author linhdev
- * @date 20/02/2020
- */
-
 @ControllerAdvice
 public class CustomValidationException extends ResponseEntityExceptionHandler {
 

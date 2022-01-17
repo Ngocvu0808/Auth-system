@@ -1,9 +1,5 @@
 package com.ttt.mar.leads.dto;
 
-/**
- * @author Chien Chill
- * @create_date 11/10/2021
- */
 public class CampaignsCodeResponseDto {
   private Integer id;
   private String code;

@@ -3,10 +3,6 @@ package com.ttt.mar.leads.dto;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @author Chien Chill
- * @create_date 06/09/2021
- */
 public class ScheduleResponseDto implements Serializable {
 
   private static final long serialVersionUID = 1L;

@@ -38,10 +38,6 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 
-/**
- * @author KietDT
- * @created_date 28/04/2021
- */
 @RunWith(MockitoJUnitRunner.Silent.class)
 public class ProjectServiceTest {
 

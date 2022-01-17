@@ -3,10 +3,6 @@ package com.ttt.mar.leads.dto;
 import com.mongodb.BasicDBObject;
 import java.util.List;
 
-/**
- * @author nguyen
- * @create_date 29/09/2021
- */
 public class LeadFilterDuplicateDto {
 
   private List<BasicDBObject> lead;

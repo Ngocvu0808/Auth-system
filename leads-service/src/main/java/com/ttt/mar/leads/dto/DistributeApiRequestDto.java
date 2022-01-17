@@ -10,10 +10,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 @ApiModel(description = "Thong tin khoi tao/ cap nhat kenh phan phoi")
 public class DistributeApiRequestDto {
 

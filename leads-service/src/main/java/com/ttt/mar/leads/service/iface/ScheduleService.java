@@ -12,11 +12,6 @@ import com.ttt.rnd.common.exception.ValidationException;
 import java.text.ParseException;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * @author Chien Chill
- * @create_date 06/09/2021
- */
-
 public interface ScheduleService {
 
   @Transactional

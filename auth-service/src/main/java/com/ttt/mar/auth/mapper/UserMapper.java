@@ -8,11 +8,6 @@ import org.mapstruct.MappingTarget;
 import org.mapstruct.NullValueCheckStrategy;
 import org.springframework.stereotype.Component;
 
-/**
- * @author bontk
- * @date 26/02/2020
- */
-
 @Mapper(componentModel = "spring", uses = {RoleUserMapper.class, GroupUserMapper.class},
     nullValueCheckStrategy = NullValueCheckStrategy.ALWAYS)
 @Component

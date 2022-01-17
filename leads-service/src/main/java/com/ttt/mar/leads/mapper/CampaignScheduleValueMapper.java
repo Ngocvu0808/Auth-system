@@ -6,10 +6,6 @@ import com.ttt.mar.leads.entities.ScheduleValue;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-/**
- * @author nguyen
- * @create_date 08/09/2021
- */
 
 @Mapper(componentModel = "spring")
 public abstract class CampaignScheduleValueMapper {

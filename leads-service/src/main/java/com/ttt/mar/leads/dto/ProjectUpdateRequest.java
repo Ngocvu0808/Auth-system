@@ -7,10 +7,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class ProjectUpdateRequest {
 
   @JsonIgnore

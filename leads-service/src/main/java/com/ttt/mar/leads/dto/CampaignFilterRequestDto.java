@@ -7,11 +7,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * @author nguyen
- * @create_date 09/08/2021
- */
-
 @Getter
 @Setter
 @AllArgsConstructor

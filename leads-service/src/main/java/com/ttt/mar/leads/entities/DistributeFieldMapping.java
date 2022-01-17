@@ -16,10 +16,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author bontk
- * @created_date 22/03/2021
- */
 @Entity
 @Table(name = "lead_distribute_field_mapping_api")
 public class DistributeFieldMapping implements Serializable {

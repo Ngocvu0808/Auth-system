@@ -4,10 +4,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.ttt.mar.leads.entities.ProjectStatus;
 import java.util.Date;
 
-/**
- * @author bontk
- * @created_date 19/04/2021
- */
 public class ProjectResponseDto {
 
   private Integer id;

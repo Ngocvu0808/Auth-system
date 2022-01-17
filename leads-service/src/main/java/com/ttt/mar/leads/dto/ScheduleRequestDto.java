@@ -6,10 +6,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * @author nguyen
- * @create_date 06/09/2021
- */
 public class ScheduleRequestDto {
 
   @ApiModelProperty(value = "kieu phan phoi", required = true, example = "ALWAYS/CALENDER")

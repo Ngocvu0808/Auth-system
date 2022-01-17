@@ -5,10 +5,6 @@ import com.ttt.mar.leads.entities.ProjectStatus;
 import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class ProjectUpdateStatusDto {
 
   @JsonIgnore

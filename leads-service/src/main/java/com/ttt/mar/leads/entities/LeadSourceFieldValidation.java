@@ -18,10 +18,6 @@ import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-/**
- * @author bontk
- * @created_date 22/03/2021
- */
 @Table(name = "lead_source_field_validation")
 @Entity
 @EntityListeners({AuditingEntityListener.class})

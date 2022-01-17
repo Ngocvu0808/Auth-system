@@ -5,10 +5,6 @@ import com.ttt.mar.leads.dto.DistributeFieldMappingResponseDto;
 import com.ttt.mar.leads.entities.DistributeFieldMapping;
 import org.mapstruct.Mapper;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 @Mapper(componentModel = "spring")
 public abstract class DistributeFieldMappingMapper {
 

@@ -16,10 +16,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 @Entity
 @Table(name = "lead_project_distribute")
 public class ProjectDistribute implements Serializable {

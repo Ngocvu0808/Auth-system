@@ -1,9 +1,5 @@
 package com.ttt.mar.leads.dto;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class LeadSourceFieldValidationResponseDto {
 
   private Integer id;

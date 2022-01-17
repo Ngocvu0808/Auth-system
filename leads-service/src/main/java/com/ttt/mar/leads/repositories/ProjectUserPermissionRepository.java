@@ -8,10 +8,6 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-/**
- * @author kietdt
- * @created_date 22/04/2021
- */
 public interface ProjectUserPermissionRepository extends
     JpaRepository<ProjectUserPermission, Integer>,
     JpaSpecificationExecutor<ProjectUserPermission> {

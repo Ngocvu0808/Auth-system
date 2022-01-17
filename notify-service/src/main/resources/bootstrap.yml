@@ -1,0 +1,9 @@
+#service name
+spring:
+  application:
+    name: NOTIFY-SERVICE
+    id: 30
+  #cloud config uri
+  cloud:
+    config:
+      uri: http://config-server:8888

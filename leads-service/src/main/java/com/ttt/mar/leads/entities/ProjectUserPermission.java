@@ -15,10 +15,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author kietdt
- * @created_date 22/04/2021
- */
 @Entity
 @Table(name = "lead_project_user_permission")
 public class ProjectUserPermission implements Serializable {

@@ -19,10 +19,6 @@ import javax.persistence.Table;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-/**
- * @author bontk
- * @created_date 31/07/2020
- */
 @EqualsAndHashCode(callSuper = true)
 @Entity
 @Table(name = "auth_external_api")

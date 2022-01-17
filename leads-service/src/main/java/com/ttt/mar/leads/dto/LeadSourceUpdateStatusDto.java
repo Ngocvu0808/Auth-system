@@ -6,10 +6,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 @ApiModel(description = "THONG TIN CAP NHAT TRANG THAI NGUON CAP LEADS")
 public class LeadSourceUpdateStatusDto {
 

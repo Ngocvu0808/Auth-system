@@ -20,6 +20,7 @@
     <module>leads-service</module>
     <module>email-service</module>
     <module>sms-service</module>
+    <module>config-service</module>
   </modules>
 
   <properties>

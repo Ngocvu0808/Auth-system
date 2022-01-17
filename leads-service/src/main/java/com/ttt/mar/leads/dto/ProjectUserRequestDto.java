@@ -4,10 +4,6 @@ import java.util.Set;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author kietdt
- * @created_date 22/04/2021
- */
 public class ProjectUserRequestDto {
 
   @NotEmpty(message = "userIds not empty.")

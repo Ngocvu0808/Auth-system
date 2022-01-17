@@ -10,10 +10,6 @@ import com.ttt.rnd.common.exception.ValidationException;
 import java.util.List;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * @author nguyen
- * @create_date 06/08/2021
- */
 public interface CampaignFilterService {
 
   @Transactional

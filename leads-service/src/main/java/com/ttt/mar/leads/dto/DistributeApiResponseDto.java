@@ -4,10 +4,6 @@ import com.ttt.mar.leads.entities.ApiMethod;
 import com.ttt.mar.leads.entities.DistributeApiStatus;
 import java.util.Date;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class DistributeApiResponseDto {
 
   private Integer id;

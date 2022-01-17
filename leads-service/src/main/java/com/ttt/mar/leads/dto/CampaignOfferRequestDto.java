@@ -3,10 +3,6 @@ package com.ttt.mar.leads.dto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author KietDt
- * @create_date 00/08/2021
- */
 public class CampaignOfferRequestDto {
 
   @JsonIgnore

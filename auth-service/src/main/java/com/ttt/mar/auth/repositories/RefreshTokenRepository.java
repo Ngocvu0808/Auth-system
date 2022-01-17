@@ -8,10 +8,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-/**
- * @author bontk
- * @created_date 03/06/2020
- */
 public interface RefreshTokenRepository extends JpaRepository<RefreshToken, Long> {
 
   Optional<RefreshToken> findByToken(String token);

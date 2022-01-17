@@ -6,10 +6,6 @@ import com.ttt.rnd.common.exception.ResourceNotFoundException;
 import java.io.IOException;
 import java.util.Map;
 
-/**
- * @author bontk
- * @created_date 17/07/2020
- */
 public interface MailService {
 
   Map<String, Object> receiveEmail(InfoEmailRequestFromNotifyServiceDto requestDto)

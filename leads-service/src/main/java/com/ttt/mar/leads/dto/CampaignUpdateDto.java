@@ -8,10 +8,6 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * @author NamBN
- * @created_date 08/06/2021
- */
 @ApiModel(description = "Thong tin chinh sua chien dich")
 public class CampaignUpdateDto {
 

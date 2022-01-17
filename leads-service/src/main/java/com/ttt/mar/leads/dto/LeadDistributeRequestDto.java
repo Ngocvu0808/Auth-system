@@ -4,10 +4,6 @@ import com.ttt.mar.leads.entities.ApiMethod;
 import com.ttt.mar.leads.entities.ApiSecureMethod;
 import java.util.List;
 
-/**
- * @author nguyen
- * @create_date 07/10/2021
- */
 public class LeadDistributeRequestDto {
 
   private int id;

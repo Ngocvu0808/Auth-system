@@ -13,10 +13,6 @@ import javax.persistence.TemporalType;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author bontk
- * @created_date 03/08/2020
- */
 @Data
 @Entity
 @Table(name = "tag")

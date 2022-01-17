@@ -1,0 +1,68 @@
+[
+  {
+    "index": 1,
+    "key": "id",
+    "typeValue": "number",
+    "name": "Request id"
+  },
+  {
+    "index": 2,
+    "key": "accountCode",
+    "typeValue": "string",
+    "name": "Account Code"
+  },
+  {
+    "index": 3,
+    "key": "brandName",
+    "typeValue": "string",
+    "name": "Brand Name"
+  },
+  {
+    "index": 4,
+    "key": "typeSendName",
+    "typeValue": "string",
+    "name": "Type Send"
+  },
+  {
+    "index": 5,
+    "key": "receiver",
+    "typeValue": "string",
+    "name": "To"
+  },
+  {
+    "index": 6,
+    "key": "content",
+    "typeValue": "string",
+    "name": "Content"
+  },
+  {
+    "index": 7,
+    "key": "publisher",
+    "typeValue": "string",
+    "name": "Publisher"
+  },
+  {
+    "index": 8,
+    "key": "creatorName",
+    "typeValue": "string",
+    "name": "Created By"
+  },
+  {
+    "index": 9,
+    "key": "createdTime",
+    "typeValue": "date",
+    "name": "Created on"
+  },
+  {
+    "index": 9,
+    "key": "modifiedTime",
+    "typeValue": "date",
+    "name": "Last Update"
+  },
+  {
+    "index": 10,
+    "key": "status",
+    "typeValue": "string",
+    "name": "Status"
+  }
+]

@@ -18,10 +18,6 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.hibernate.annotations.CreationTimestamp;
 
-/**
- * @author bontk
- * @created_date 22/03/2021
- */
 @Entity
 @Table(name = "lead_distribute_api_data")
 public class DistributeApiData implements Serializable {

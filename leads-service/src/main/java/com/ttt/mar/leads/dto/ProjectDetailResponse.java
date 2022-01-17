@@ -3,10 +3,6 @@ package com.ttt.mar.leads.dto;
 import com.ttt.mar.leads.entities.ProjectStatus;
 import java.util.Date;
 
-/**
- * @author kietdt
- * @created_date 20/04/2021
- */
 public class ProjectDetailResponse {
 
   private Integer id;

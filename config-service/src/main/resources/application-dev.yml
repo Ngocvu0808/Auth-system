@@ -1,0 +1,48 @@
+#CONFIG PORT
+server:
+  port: 9090
+  max-http-header-size: 1000000
+
+# SPRING CONFIG
+spring:
+
+  #  DATASOURCE MARIADB
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://192.168.17.38:3306/mar-platform?createDatabaseIfNotExist=false&autoReconnect=true&UseUnicode=true&characterEncoding=utf8&useSSL=false
+    username: dwh
+    password: Tpc@1234
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: false
+
+  boot:
+    admin:
+      client:
+        url: http://admin-server:9090
+        username: admin
+        password: admin
+      notify:
+        mail:
+          to:
+
+management:
+  endpoint:
+    web:
+      exposure:
+        include: "*"
+    health:
+      show-details: always
+
+#Eureka client config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
+    fetchRegistry: true
+    instance:
+      preferIpAddress: false

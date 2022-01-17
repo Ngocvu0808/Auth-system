@@ -1,9 +1,5 @@
 package com.ttt.mar.leads.dto;
 
-/**
- * @author nguyen
- * @create_date 23/09/2021
- */
 public class LeadImportResponseDto {
 
   private int total;

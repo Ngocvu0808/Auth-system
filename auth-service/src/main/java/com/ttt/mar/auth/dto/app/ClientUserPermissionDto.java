@@ -1,9 +1,5 @@
 package com.ttt.mar.auth.dto.app;
 
-/**
- * @author bontk
- * @created_date 01/08/2020
- */
 public class ClientUserPermissionDto {
 
   private Integer roleId;
