@@ -30,7 +30,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://admin-server:9090
+        url: http://192.168.20.33:9999
         username: admin
         password: admin
       notify:
@@ -50,7 +50,7 @@ management:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-server:8761/eureka/
+      defaultZone: http://192.168.20.33:8761/eureka/
     fetchRegistry: true
     instance:
       preferIpAddress: false
